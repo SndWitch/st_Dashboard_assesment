@@ -1,0 +1,79 @@
+{
+  "transcripts": {
+    "question_1": {
+      "question": "Can you share any specific challenges you faced while working on certification and how you overcame them?",
+      "transcript": " Can you share any specific challenges faced while working on Skyshine and how you overcome them? Ah, okay. Actually, for the challenges, there are some challenges when I took the certifications, especially for the projects I mentioned that I already working with it. The first one is actually to meet the specific accuracy or validation loss for the evaluation matrix. And yeah, actually, that's just need to take some trial and error with different architecture. For example, like we can try to add more layer, more neurons, changes the neurons. Or even I also apply the dropout layer. So yeah, it really helps with the validation loss to become more lower, right? And yeah, I think that's one of the biggest challenges that I have while working on this certification.",
+      "stt_confidence": 91.19
+    },
+    "question_2": {
+      "question": "Can you describe your experience with transfer learning in TensorFlow? How did it benefit your projects?",
+      "transcript": " Can you describe your experience with transfer learning and TensorFlow, how do you benefit from it? Ah, okay. About transfer learning is actually, we use existing trained model from TensorFlow, for example, like VGC16, VGC19, right? Especially for some cases that we need to use deep learning using Keras applications, for example, like image classification, we can use transfer learning models, which is, that's already a trained model with exceptionally high accuracy, high performance. Yeah, even though it's trained with different data sets, but it really helps to improve our model performance, model accuracy, model loss. For example, like MobileNet, VGC19, VGC16, EfficientNet, it will help to improve our models, comparing to the one if you use a traditional CNN model. So, yeah, CNN model with the convolutional 2D, yeah, max pooling, and yeah, it's quite good, actually, to use transfer learning. It really helps with our model performance, to improve our model performance.",
+      "stt_confidence": 92.71
+    },
+    "question_3": {
+      "question": "Describe a complex TensorFlow model you have built and the steps you took to ensure its accuracy and efficiency.",
+      "transcript": " Describe a core model you've built and the steps you took to ensure accuracy and efficiency. Complex transfer model you've built to ensure accuracy. Okay, I will take one of my previous projects that I used. I also used Keras transfer model. It is about celiac disease prediction. This is also I used the research project for my undergraduate thesis, for my scripts. I used this model. It's quite challenging. Even though it's achieved high accuracy with some dense layer, with some drawout layer. And trial and error also with the callback function with the neurons. But the problem is the dataset is not balanced. So it has the imbalanced class dataset. The approach that I used is just to use the technique called smooth and synthetic oversampling technique with edited nearest neighbor. Which is basically just oversampling and undersampling the dataset. It helps with the accuracy.",
+      "stt_confidence": 91.45
+    },
+    "question_4": {
+      "question": "Explain how to implement dropout in a TensorFlow model and the effect it has on training.",
+      "transcript": " Explain how to implement dropout in test server model and test on training. Previously, I also have implemented the dropout layer also in the project function within this certifications and we can just add the dropout layer, for example, if I'm not mistaken, I have used this dropout layer in the one that the case is image classifications, yeah, a German traffic something, if I'm not wrong, I have used this dropout layer in the, not in the last, in the middle of the layer, so there's a flattened layer, right, not flattened, the convolutional layer and the flattened layer and I use that dropout layer which is I use with the rate of 0.2 or 0.5, if I'm not wrong, and then the dense layer and the last, the output layer, right, the effect is it will really help to improve our accuracy and lower our validation loss by turning off some of the previous layer, yeah, for example, like we have a dense layer before and the next layer, we implement the dropout layer with the rate of 0.5 and it will turn off randomly each epoch for the previous dense layer. Okay.",
+      "stt_confidence": 90.15
+    },
+    "question_5": {
+      "question": "Describe the process of building a convolutional neural network (CNN) using TensorFlow for image classification.",
+      "transcript": " Describe the process of building a new section, okay. The CNN one, right? So, at the first time, of course, we need to make sure the image folder is split for each class, okay? And then we can use Keras preprocessing, if I'm not mistaken, image dataset from directory to split the training and the validation dataset, right? Yeah, of course, we can use another set, which is the test dataset, yeah. But, yeah, okay, the next one, we can just, maybe we need to implement also the image augmentation, yeah, data image augmentation to make our dataset more veritative, right? For example, like, we can rotate, we can zoom it, we can crop it, yeah. And, yeah, the last thing, yeah, of course, we can build our chain model with the Convolutional 2D, specify the filters, the kernel size, the LRM definition, of course, the input shape for the first layer, and then we can apply the Max Pooling 2D, yeah, and the next layer, we can just use Convolutional 2D, Max Pooling, and whatever it is. And after that, we apply the flatten layer and dropout layer, if you want. And the last thing, don't forget to use the dash layer, right, for the output, the last output layer.",
+      "stt_confidence": 91.75
+    }
+  },
+  "interview_scores": {
+    "assessorProfile": {
+      "id": 0,
+      "name": "AI Assessor (Groq Mixtral-8x7B)",
+      "photoUrl": ""
+    },
+    "decision": "Pending",
+    "reviewedAt": "2025-12-12 06:24:50",
+    "scoresOverview": {
+      "project": 100,
+      "interview": 2.6,
+      "interview_normalized": 65.0,
+      "total": 82.5
+    },
+    "reviewChecklistResult": {
+      "project": [],
+      "interviews": {
+        "minScore": 0,
+        "maxScore": 4,
+        "scores": [
+          {
+            "id": 1,
+            "score": 3,
+            "reason": "The candidate describes a specific challenge related to meeting accuracy or validation loss and provides a basic explanation of how it was overcome, such as trying different architectures and applying dropout layers, but the explanation lacks depth and detail."
+          },
+          {
+            "id": 2,
+            "score": 2,
+            "reason": "The candidate mentions transfer learning and TensorFlow, provides some examples of models like VGG16 and VGG19, and acknowledges the benefits of using transfer learning, but lacks specific personal experience and detailed explanations of how it benefited their projects."
+          },
+          {
+            "id": 3,
+            "score": 3,
+            "reason": "The candidate describes a specific TensorFlow model they built for celiac disease prediction, mentions using dense and dropout layers, and explains steps to handle an imbalanced dataset, but the explanation lacks depth and specificity regarding the model's architecture and optimization techniques."
+          },
+          {
+            "id": 4,
+            "score": 2,
+            "reason": "The candidate provides a general response with limited details, mentioning the use of a dropout layer and its effect on training, but lacks specific examples, code, or a clear explanation of how dropout prevents overfitting."
+          },
+          {
+            "id": 5,
+            "score": 3,
+            "reason": "The candidate describes the general process of building a CNN in TensorFlow, including data preprocessing, image augmentation, defining the CNN architecture, and key layers, but lacks comprehensive detail and omits important aspects such as compiling the model and evaluating performance."
+          }
+        ]
+      }
+    },
+    "overallNotes": "Generated automatically by Groq API based on rubric scoring."
+  }
+}
