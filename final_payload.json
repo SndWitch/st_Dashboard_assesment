@@ -33,12 +33,12 @@
       "photoUrl": ""
     },
     "decision": "Pending",
-    "reviewedAt": "2025-12-12 06:24:50",
+    "reviewedAt": "2025-12-13 04:47:08",
     "scoresOverview": {
       "project": 100,
-      "interview": 2.6,
-      "interview_normalized": 65.0,
-      "total": 82.5
+      "interview": 2.8,
+      "interview_normalized": 70.0,
+      "total": 85.0
     },
     "reviewChecklistResult": {
       "project": [],
@@ -49,17 +49,17 @@
           {
             "id": 1,
             "score": 3,
-            "reason": "The candidate describes a specific challenge related to meeting accuracy or validation loss and provides a basic explanation of how it was overcome, such as trying different architectures and applying dropout layers, but the explanation lacks depth and detail."
+            "reason": "The candidate describes a specific challenge related to meeting the accuracy or validation loss for the evaluation matrix and provides a basic explanation of how it was overcome, such as trying different architectures and applying dropout layers, but the explanation lacks depth and detail."
           },
           {
             "id": 2,
-            "score": 2,
-            "reason": "The candidate mentions transfer learning and TensorFlow, provides some examples of models like VGG16 and VGG19, and acknowledges the benefits of using transfer learning, but lacks specific personal experience and detailed explanations of how it benefited their projects."
+            "score": 3,
+            "reason": "The candidate describes personal experience with transfer learning in TensorFlow, mentions specific models like VGG16 and VGG19, and explains how transfer learning improved model performance, but the explanation is brief and lacks comprehensive insight into the projects."
           },
           {
             "id": 3,
             "score": 3,
-            "reason": "The candidate describes a specific TensorFlow model they built for celiac disease prediction, mentions using dense and dropout layers, and explains steps to handle an imbalanced dataset, but the explanation lacks depth and specificity regarding the model's architecture and optimization techniques."
+            "reason": "The candidate describes a specific TensorFlow model they built for celiac disease prediction, mentions using Keras, dense layers, dropout layers, and techniques like SMOTE for handling imbalanced datasets, but lacks detailed explanations of the model's architecture and comprehensive steps for ensuring accuracy and efficiency."
           },
           {
             "id": 4,
@@ -69,7 +69,7 @@
           {
             "id": 5,
             "score": 3,
-            "reason": "The candidate describes the general process of building a CNN in TensorFlow, including data preprocessing, image augmentation, defining the CNN architecture, and key layers, but lacks comprehensive detail and omits important aspects such as compiling the model and evaluating performance."
+            "reason": "The candidate describes the general process of building a CNN in TensorFlow, including data preprocessing, defining the CNN architecture, and key layers, but lacks comprehensive detail and omits important aspects such as compiling the model and evaluating performance."
           }
         ]
       }
